@@ -1,5 +1,3 @@
-{% load static %}
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -18,8 +16,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-        <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
-        <link href="{% static '/css/style.css' %}" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
@@ -29,7 +25,6 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="card card body" id="profile-wrapper">
-                    <img src = "{% static 'images/ram.jpg' %}">
                     <br>
                     <h6>R Shriram</h6>
                 </div>
@@ -44,20 +39,17 @@
                         </ul>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="{% static 'images/background2.jpg'%}">
                                 <div class="carousel-caption">
                                     <h2>MBA graduate working in Deloitte Presently</h2>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="{% static 'images/background2.jpg'%}">
                                 <div class="carousel-caption">
                                     <h2>Built a sample website</h2>
                                     <a href="https://moonapp.herokuapp.com/" class="btn btn-outline-light">Find Here</a>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="{% static 'images/background2.jpg'%}">
                                 <div class="carousel-caption">
                                     <h2>Tried Blogging</h2>
                                     <a href="https://cricslam.com/" class="btn btn-outline-light">Find Here</a>
