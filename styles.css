@@ -384,3 +384,91 @@ h4{
 }
 
 }
+
+.deloitteul li {
+  list-style: none;
+  position: relative;
+  padding: 3px 0 2px 25px;
+}
+
+.deloitteul li::before {
+  content: '•';
+  position: absolute;
+  top: 6px;
+  left: 0;
+  color: green;
+}
+
+.heading-underline{
+  width: 3rem;
+  height: 0.1rem;
+  background-color: lightblue;
+  margin: 0 auto;
+}
+
+.myh6{
+  color: darkblue;
+  text-align: center;
+}
+
+.jumbotron{
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.interndiv{
+  background-color: ivory;
+}
+
+.blueul li {
+  list-style: none;
+  position: relative;
+  padding: 3px 0 2px 25px;
+}
+
+.blueul li::before {
+  content: '☆';
+  position: absolute;
+  top: 6px;
+  left: 0;
+  color: blue;
+}
+
+.myed{
+  background-color: white;
+}
+
+.eyul li {
+  list-style: none;
+  position: relative;
+  padding: 3px 0 2px 25px;
+}
+
+.eyul li::before {
+  content: '◄';
+  position: absolute;
+  top: 6px;
+  left: 0;
+  color: yellow;
+}
+
+.section {
+  padding: 50px 20px;
+  position: relative;
+}
+.gray-bg {
+  background-color: white;
+}
+.myphoto{
+  height: 230px;
+  width: 200px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.about-avatar{
+  display: flex;
+  justify-content: center;
+}
+
