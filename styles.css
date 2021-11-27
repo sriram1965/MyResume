@@ -475,3 +475,31 @@ h4{
 .ame{
   color: darkblue;
 }
+
+.achieveul li {
+  list-style: none;
+  position: relative;
+  padding: 3px 0 2px 25px;
+}
+
+.achieveul li::before {
+  content: '🥈';
+  position: absolute;
+  top: 6px;
+  left: 0;
+  color: yellow;
+}
+
+.eyulachieve li {
+  list-style: none;
+  position: relative;
+  padding: 3px 0 2px 25px;
+}
+
+.eyulachieve li::before {
+  content: '🏅';
+  position: absolute;
+  top: 6px;
+  left: 0;
+  color: yellow;
+}
