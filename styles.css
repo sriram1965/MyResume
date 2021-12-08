@@ -503,3 +503,16 @@ h4{
   left: 0;
   color: yellow;
 }
+
+.certiul li {
+  list-style: none;
+  position: relative;
+  padding: 3px 0 2px 25px;
+}
+
+.certiul li::before {
+  content: '☑';
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
